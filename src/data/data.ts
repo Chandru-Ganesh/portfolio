@@ -92,7 +92,7 @@ export const CASE_STUDIES: CaseStudy[] = [
         title: "Research & Discovery",
         body: "I ran 12 user interviews and analyzed 3 months of session recordings. Key insight: users didn't want to see all their data at once — they wanted progressive disclosure, surfacing what mattered most at the right time. Competitive analysis of 6 apps revealed a shared failure: designing for power users while alienating casual ones.",
         media: [
-          { src: "research-notes.jpg", type: "image", alt: "Research notes and affinity mapping", caption: "Affinity mapping from 12 user interviews" },
+          { src: "034.mp4", type: "video", alt: "Research notes and affinity mapping", caption: "Affinity mapping from 12 user interviews" },
         ],
       },
       {
@@ -244,7 +244,7 @@ export const PROJECTS: Project[] = [
     description: "Minimal iOS habit tracker focused on the 2-minute rule with smart nudges.",
     techStack: ["React Native", "Expo", "SQLite"],
     category: "Mobile",
-    image: "/images/projects/pockethabit.jpg",
+    image: "/images/projects/Black_colour.jpg",
     year: "2022",
   },
 ];
