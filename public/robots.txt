@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /videos/
+Disallow: /api/
+
+Sitemap: https://arjunmehta.dev/sitemap.xml

@@ -1,0 +1,7 @@
+{
+  "/case-studies/page": "app/case-studies/page.js",
+  "/page": "app/page.js",
+  "/sitemap.xml/[[...__metadata_id__]]/route": "app/sitemap.xml/[[...__metadata_id__]]/route.js",
+  "/projects/page": "app/projects/page.js",
+  "/case-studies/[id]/page": "app/case-studies/[id]/page.js"
+}
