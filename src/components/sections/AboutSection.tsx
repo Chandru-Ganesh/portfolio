@@ -46,12 +46,6 @@ export default function AboutSection() {
                   sizes="(max-width: 768px) 100vw, 33vw"
                   priority={false}
                 />
-                {/* Placeholder if image missing */}
-                <div className="absolute inset-0 bg-canvas-warm flex items-end p-6">
-                  <p className="font-mono text-xs text-ink-faint">
-                    /images/about/headshot.jpg
-                  </p>
-                </div>
               </div>
             </FadeIn>
 

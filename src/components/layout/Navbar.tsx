@@ -56,9 +56,7 @@ export default function Navbar() {
         {/* Nav links */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => {
-            const isActive =
-              pathname === link.href ||
-              (link.href.startsWith("/#") && pathname === "/");
+            const isActive = pathname === link.href;
             return (
               <Link
                 key={link.href}

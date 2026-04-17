@@ -20,7 +20,7 @@ export default function HeroSection() {
   return (
     <section
       ref={ref}
-      className="relative min-h-screen flex flex-col justify-end pb-20 pt-32 overflow-hidden bg-canvas"
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-canvas"
     >
       {/* Subtle background ornament */}
       <div
@@ -30,7 +30,7 @@ export default function HeroSection() {
 
       <motion.div
         style={{ y, opacity }}
-        className="max-w-7xl mx-auto px-6 md:px-12 w-full"
+        className="max-w-7xl mx-auto px-6 md:px-12 w-full pt-24 pb-20"
       >
         {/* Eyebrow */}
         <motion.p
@@ -48,7 +48,7 @@ export default function HeroSection() {
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
             transition={{ delay: 0.2, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-            className="font-display italic text-[clamp(3.5rem,11vw,9rem)] leading-[0.92] tracking-tighter text-ink"
+            className="font-display italic text-[clamp(2.8rem,11vw,9rem)] leading-[0.92] tracking-tighter text-ink"
           >
             {PERSONAL.firstName}
           </motion.h1>
