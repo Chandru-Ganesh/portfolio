@@ -98,4 +98,15 @@ export const PROJECTS: Project[] = [
     year: "2026",
     featured: true,
   },
+  {
+    id: "NPM-json2any",
+    title: "JSON2Any",
+    description: "Used json2csv to efficiently convert large-scale JSON data into multiple formats with minimal data loss. Built to handle high-volume datasets reliably while keeping performance smooth and consistent.",
+    techStack: ["JavaScript", "Node.js","'Under Development"],
+    category: "OSS",
+    image: "/images/projects/npm.png",
+    githubUrl: "https://github.com/Chandru-Ganesh/json2any.git",
+    year: "2026",
+    featured: true,
+  },
 ];
