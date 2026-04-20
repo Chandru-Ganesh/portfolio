@@ -10,7 +10,7 @@ export const PERSONAL = {
   tagline: "I build products that feel inevitable.",
   bio: `I'm a product developer focused on the intersection of engineering and design. I work with early-stage startups and scale-ups to ship polished digital products — from concept to code. My process is grounded in user research, rapid prototyping, and an obsessive attention to detail that shows up in every interaction.
 
-Currently open to select freelance projects and long-term collaborations where craft matters.`,
+Currently open to select freelance projects and long-term collaborations.`,
   location: "Tamil Nadu, India",
   available: true,
   email: "hello@arjunmehta.dev",
@@ -106,6 +106,7 @@ export const PROJECTS: Project[] = [
     category: "OSS",
     image: "/images/projects/npm.png",
     githubUrl: "https://github.com/Chandru-Ganesh/json2any.git",
+    liveUrl: "https://www.npmjs.com/package/json2any",
     year: "2026",
     featured: true,
   },
